@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8932F6C221C175FD0003B64A /* PeriodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8932F6C121C175FD0003B64A /* PeriodTableViewCell.swift */; };
 		89AA752021BADECF006FBB07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA751F21BADECF006FBB07 /* AppDelegate.swift */; };
-		89AA752221BADECF006FBB07 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA752121BADECF006FBB07 /* RootViewController.swift */; };
-		89AA752421BADECF006FBB07 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA752321BADECF006FBB07 /* DataViewController.swift */; };
 		89AA752621BADECF006FBB07 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA752521BADECF006FBB07 /* ModelController.swift */; };
 		89AA752921BADECF006FBB07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AA752721BADECF006FBB07 /* Main.storyboard */; };
 		89AA752B21BADED0006FBB07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89AA752A21BADED0006FBB07 /* Assets.xcassets */; };
@@ -39,10 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8932F6C121C175FD0003B64A /* PeriodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodTableViewCell.swift; sourceTree = "<group>"; };
 		89AA751C21BADECF006FBB07 /* HotSeatEhs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotSeatEhs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89AA751F21BADECF006FBB07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89AA752121BADECF006FBB07 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		89AA752321BADECF006FBB07 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		89AA752521BADECF006FBB07 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		89AA752821BADECF006FBB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89AA752A21BADED0006FBB07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,10 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				89AA751F21BADECF006FBB07 /* AppDelegate.swift */,
-				89AA752121BADECF006FBB07 /* RootViewController.swift */,
-				89AA752321BADECF006FBB07 /* DataViewController.swift */,
 				89AA752521BADECF006FBB07 /* ModelController.swift */,
 				89AA752721BADECF006FBB07 /* Main.storyboard */,
+				8932F6C121C175FD0003B64A /* PeriodTableViewCell.swift */,
 				EBFDAAEA21C01EE90028A380 /* Home.swift */,
 				EBFDAAEC21C020A40028A380 /* Period.swift */,
 				EBFDAAEE21C021110028A380 /* Seat.swift */,
@@ -271,11 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89AA752221BADECF006FBB07 /* RootViewController.swift in Sources */,
 				89AA752621BADECF006FBB07 /* ModelController.swift in Sources */,
+				8932F6C221C175FD0003B64A /* PeriodTableViewCell.swift in Sources */,
 				EBFDAAEF21C021110028A380 /* Seat.swift in Sources */,
 				EBFDAAEB21C01EE90028A380 /* Home.swift in Sources */,
-				89AA752421BADECF006FBB07 /* DataViewController.swift in Sources */,
 				EBFDAAED21C020A40028A380 /* Period.swift in Sources */,
 				89AA752021BADECF006FBB07 /* AppDelegate.swift in Sources */,
 			);
